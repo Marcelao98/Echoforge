@@ -95,7 +95,8 @@ function aplicarValores(novos: ParamValues): void {
 
 // --- barra de vozes ---
 function marcarVoz(): void {
-  const mexida = vozAtual !== null && JSON.stringify(diffFromDefaults(valores)) !== JSON.stringify(vozAtual.params);
+  // compara as duas na ordem do catálogo, senão a ordem das chaves do JSON engana
+  const mexida = vozAtual !== null && JSON.stringify(diffFromDefaults(valores)) !== JSON.stringify(diffFromDefaults(resolveValues(vozAtual)));
   document.querySelectorAll<HTMLElement>('.voz').forEach((b) => {
     const ativa = b.dataset.id === vozAtual?.id;
     b.classList.toggle('ativa', ativa);

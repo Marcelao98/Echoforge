@@ -136,6 +136,11 @@ try {
   conferir(Number(nivel) > 0, `medidor de entrada mexe (${nivel})`);
   await pagina.screenshot({ path: join(TELAS, 'forja-limpa.png'), fullPage: true });
 
+  for (const id of ['fantasma', 'deus-antigo', 'construto']) {
+    await pagina.click(`.voz[data-id="${id}"]`);
+    conferir((await pagina.locator('.voz.mexida').count()) === 0, `${id} escolhido não aparece como mexido`);
+  }
+
   for (const [id, st] of [
     ['orc', -5],
     ['fada', 9],
