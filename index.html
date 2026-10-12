@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Echoforge</title>
+    <meta name="description" content="Forja de vozes: mude o tom e o timbre da sua voz em tempo real e veja ela em cores." />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="topo">
+      <h1 class="marca">Echo<span>forge</span></h1>
+      <div class="topo-acoes">
+        <select id="fonte" aria-label="Fonte de som">
+          <option value="">Microfone padrão</option>
+        </select>
+        <label class="btn" id="btn-arquivo" title="Forjar um arquivo de áudio em vez do microfone">
+          📂 Arquivo<input type="file" id="arquivo" accept="audio/*" hidden />
+        </label>
+        <button type="button" class="btn quente" id="acender">🔥 Acender a forja</button>
+        <button type="button" class="btn" id="tour">🧭 Tour</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="guia" class="guia" aria-label="Guia"></section>
+
+      <section id="vozes" class="painel vozes" aria-label="Vozes">
+        <div class="vozes-lista" id="vozes-lista"></div>
+        <div class="vozes-acoes">
+          <button type="button" class="btn-mini" id="salvar">💾 Guardar no baú</button>
+          <button type="button" class="btn-mini" id="link">🔗 Copiar link</button>
+          <button type="button" class="btn-mini" id="exportar">⬇️ Exportar</button>
+          <label class="btn-mini">⬆️ Importar<input type="file" id="importar" accept="application/json,.json" hidden /></label>
+          <button type="button" class="btn-mini" id="zerar">🧹 Zerar</button>
+        </div>
+      </section>
+
+      <section class="painel visor-painel" aria-label="Visor">
+        <div id="visor" class="visor">
+          <div class="espectro">
+            <span class="etiqueta">Voz crua</span>
+            <canvas id="esp-cru"></canvas>
+          </div>
+          <div class="espectro">
+            <span class="etiqueta quente">Voz forjada</span>
+            <canvas id="esp-forjado"></canvas>
+          </div>
+        </div>
+        <div id="roda" class="roda"><canvas id="roda-canvas"></canvas></div>
+      </section>
+
+      <section id="mesa" class="mesa" aria-label="Mesa de som"></section>
+
+      <section id="saidas" class="painel saidas" aria-label="Saídas">
+        <div class="saida-linha">
+          <label class="chave"><input type="checkbox" id="retorno" /> <span>🎧 Retorno (me ouvir)</span></label>
+          <select id="disp-retorno" aria-label="Dispositivo do retorno"><option value="">Saída padrão</option></select>
+        </div>
+        <div class="saida-linha">
+          <label class="chave"><input type="checkbox" id="envio" /> <span>📡 Envio (Discord / cabo virtual)</span></label>
+          <select id="disp-envio" aria-label="Dispositivo do envio"><option value="">Saída padrão</option></select>
+        </div>
+        <div class="saida-linha">
+          <button type="button" class="btn-mini" id="gravar">⏺️ Gravar 5 segundos</button>
+          <audio id="amostra" controls hidden></audio>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      Echoforge · sem IA, tudo no seu navegador: a sua voz não sai do seu computador.
+    </footer>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

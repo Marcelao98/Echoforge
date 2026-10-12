@@ -22,6 +22,7 @@
   "homepage": "https://github.com/Marcelao98/echoforge#readme",
   "devDependencies": {
     "@types/node": "^26.6.5",
+    "playwright-core": "^1.64.0",
     "typescript": "^7.0.2",
     "vite": "^6.4.4",
     "vitest": "^3.2.7"
