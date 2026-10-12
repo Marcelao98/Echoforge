@@ -1,0 +1,17 @@
+{
+  "id": "orc",
+  "nome": "Orc",
+  "emoji": "👹",
+  "descricao": "Grave, rouco e largo. Peito de quem carrega machado.",
+  "fala": "Ugh! Essa voz tem cheiro de fumaça e carne queimada. Grita que fica melhor.",
+  "params": {
+    "tom": -5,
+    "timbre": -4,
+    "graves": 6,
+    "medios": 3,
+    "agudos": -4,
+    "drive": 45,
+    "sala": "taverna",
+    "salaMix": 20
+  }
+}

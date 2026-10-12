@@ -1,0 +1,16 @@
+{
+  "id": "elfo",
+  "nome": "Elfo",
+  "emoji": "🧝",
+  "descricao": "Leve, brilhante e etérea, com uma floresta ao fundo.",
+  "fala": "Hmpf, orelhudos. Mas admito que a voz é bonita. Fala como quem tem quinhentos anos de paciência.",
+  "params": {
+    "tom": 2,
+    "timbre": 1.5,
+    "graves": -3,
+    "agudos": 6,
+    "multidao": 15,
+    "sala": "floresta",
+    "salaMix": 35
+  }
+}

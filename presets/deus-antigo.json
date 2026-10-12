@@ -1,0 +1,18 @@
+{
+  "id": "deus-antigo",
+  "nome": "Deus Antigo",
+  "emoji": "🌌",
+  "descricao": "Vasto, multiplicado e vindo de muito longe.",
+  "fala": "Essa voz é perigosa até pra mim. Fala devagar e deixa o eco responder.",
+  "params": {
+    "tom": -7,
+    "timbre": -5,
+    "graves": 6,
+    "multidao": 70,
+    "eco": 40,
+    "ecoTempo": 600,
+    "ecoRetorno": 50,
+    "sala": "catedral",
+    "salaMix": 60
+  }
+}

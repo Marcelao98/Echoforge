@@ -1,0 +1,15 @@
+{
+  "id": "goblin",
+  "nome": "Goblin",
+  "emoji": "👺",
+  "descricao": "Agudo, nasal e apressado.",
+  "fala": "Hehehe! Fala rápido e meio esganiçado, como quem acabou de roubar uma bota.",
+  "params": {
+    "tom": 5,
+    "timbre": 5,
+    "graves": -6,
+    "medios": 7,
+    "passaAlta": 250,
+    "drive": 10
+  }
+}

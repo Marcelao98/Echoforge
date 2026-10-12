@@ -1,0 +1,14 @@
+{
+  "id": "pedra-mensageira",
+  "nome": "Pedra Mensageira",
+  "emoji": "💎",
+  "descricao": "Voz que sai de um cristal mágico: fina como rádio velho.",
+  "fala": "Pra quando o mago manda recado de longe. Fica parecendo rádio de dentro de uma pedra.",
+  "params": {
+    "passaAlta": 700,
+    "passaBaixa": 3500,
+    "medios": 6,
+    "drive": 25,
+    "bits": 9
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "construto",
+  "nome": "Construto",
+  "emoji": "🤖",
+  "descricao": "Golem de metal com engrenagens no peito.",
+  "fala": "Essa eu forjei com sucata de autômato. Fala reto, sem emoção, uma sílaba por vez.",
+  "params": {
+    "tom": -3,
+    "robo": 70,
+    "roboHz": 55,
+    "bits": 10,
+    "medios": 4,
+    "passaAlta": 150,
+    "sala": "masmorra",
+    "salaMix": 15
+  }
+}

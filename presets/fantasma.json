@@ -1,0 +1,20 @@
+{
+  "id": "fantasma",
+  "nome": "Fantasma",
+  "emoji": "👻",
+  "descricao": "Distante, oco e sem corpo, com eco de corredor vazio.",
+  "fala": "Brrr. Essa voz vem de um lugar onde ninguém mais respira. Sussurra.",
+  "params": {
+    "tom": 3,
+    "timbre": -2,
+    "graves": -10,
+    "agudos": -4,
+    "passaAlta": 400,
+    "multidao": 40,
+    "eco": 35,
+    "ecoTempo": 420,
+    "ecoRetorno": 45,
+    "sala": "catedral",
+    "salaMix": 55
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "narrador",
+  "nome": "Narrador Épico",
+  "emoji": "📜",
+  "descricao": "Voz grave e presente, com um toque de salão de pedra.",
+  "fala": "Toda boa história começa com essa voz. Fala devagar que fica melhor.",
+  "params": {
+    "tom": -1.5,
+    "timbre": -1,
+    "graves": 4,
+    "agudos": 2,
+    "sala": "catedral",
+    "salaMix": 18
+  }
+}

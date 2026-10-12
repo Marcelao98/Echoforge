@@ -1,0 +1,17 @@
+{
+  "id": "lich",
+  "nome": "Lich",
+  "emoji": "💀",
+  "descricao": "Morto-vivo antigo: grave, quebrado, frio.",
+  "fala": "Cuidado com essa. Foi forjada com pó de osso. Fala como quem já morreu e não gostou.",
+  "params": {
+    "tom": -4,
+    "timbre": 2,
+    "agudos": -6,
+    "bits": 7,
+    "multidao": 30,
+    "drive": 20,
+    "sala": "masmorra",
+    "salaMix": 45
+  }
+}

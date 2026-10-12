@@ -1,0 +1,16 @@
+{
+  "id": "anao",
+  "nome": "Anão",
+  "emoji": "⛏️",
+  "descricao": "Tom normal, garganta pequena e funda, eco de mina.",
+  "fala": "Ah, um parente! Essa é a voz de quem nasceu debaixo da montanha. Igual a minha.",
+  "params": {
+    "tom": -2,
+    "timbre": -3,
+    "graves": 5,
+    "medios": 2,
+    "drive": 15,
+    "sala": "caverna",
+    "salaMix": 20
+  }
+}

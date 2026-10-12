@@ -1,0 +1,19 @@
+{
+  "id": "fada",
+  "nome": "Fada",
+  "emoji": "🧚",
+  "descricao": "Minúscula, aguda e cintilante.",
+  "fala": "Uma fada! Cuidado que elas mordem. Fala rápido e animado.",
+  "params": {
+    "tom": 9,
+    "timbre": 7,
+    "graves": -12,
+    "agudos": 5,
+    "multidao": 20,
+    "eco": 15,
+    "ecoTempo": 120,
+    "ecoRetorno": 20,
+    "sala": "floresta",
+    "salaMix": 25
+  }
+}

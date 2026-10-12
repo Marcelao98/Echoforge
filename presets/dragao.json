@@ -1,0 +1,17 @@
+{
+  "id": "dragao",
+  "nome": "Dragão",
+  "emoji": "🐉",
+  "descricao": "Enorme, lento e cavernoso. A voz faz o chão tremer.",
+  "fala": "Ninguém volta igual depois de ouvir essa voz. Fala pouco e devagar, cada palavra é uma ameaça.",
+  "params": {
+    "tom": -10,
+    "timbre": -8,
+    "graves": 9,
+    "agudos": -3,
+    "drive": 30,
+    "multidao": 25,
+    "sala": "caverna",
+    "salaMix": 40
+  }
+}
